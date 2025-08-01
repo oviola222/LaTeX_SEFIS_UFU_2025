@@ -14,3 +14,8 @@ Vantagens:
 5. Padronização;
 6. Gratuito e de código aberto;
 
+### O que veremos aqui? 
+1. Estrutura básica de um documento: _documentclasses_, pacotes e configurações iniciais;
+2. Inserção de imagens, tabelas e equações;
+3. Formatação das referencias bibliográficas;
+4. Apresentação do TikZ e do PGFPlots e aplicações na Física;
