@@ -1,0 +1,49 @@
+%%%%% PACOTES PARA ESCRITA %%%%%
+
+\usepackage[T1]{fontenc} % Codificação de fonte TeX (acentos e símbolos)
+\usepackage{fontspec} % Pacote de fontes
+%\setmainfont{Times New Roman} % Define a fonte
+%\usepackage[utf8]{inputenc} % Permite o uso simples de acentos
+\usepackage[brazilian]{babel} % Define a língua em que o texto será escrito
+\usepackage[left=2.5cm, top = 3cm, right = 2.5cm, bottom = 2cm]{geometry} % Configura as margens do documento
+\usepackage{indentfirst} % Identa o primeiro parágrafo das seções
+\setlength{\parindent}{1.5cm}
+\usepackage{url} % Permite a escrita de links
+\usepackage{setspace} % Para determinar espaçamento entre linhas
+%\setstretch{1.5} % Define um espaçamento específico
+\onehalfspacing % Define espaçamento de 1,5 entre linhas
+\usepackage{lipsum} % Gera texto aleatório
+\usepackage{soul} % Para destacar texto (\hl) ou sublinhar (\ul)
+\usepackage{hyperref} % Determina como referências serão colocadas no texto
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    bookmarksdepth=4,
+    pdfencoding=auto
+}
+\usepackage{caption} % Define a inserção de legendas em figuras e tabelas
+\usepackage{booktabs, nicematrix} % Pacote para criar tabelas mais sofisticadas
+\usepackage{multicol} % Pacote para criar mais de uma coluna no texto ou em parte do texto
+
+%%%%% PACOTE PARA EQUAÇÕES MATEMÁTICAS (American Mathematical Society) %%%%%
+
+\usepackage{amsmath} % Formatação das equações
+\usepackage{amsfonts} % Fonte das equações e escritas especiais
+\usepackage{amssymb} % Insere símbolos matemáticos
+\usepackage{physics} % Símbolos matemáticos usados na Física
+\usepackage{bm} % Para colocar equações em negrito
+
+%%%%% PACOTE PARA IMAGENS %%%%%
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{xcolor} % Insere cores no documento dentro do padrão RGB
+\usepackage{wrapfig} % Coloca imagens deslocadas com o texto
+\usepackage{subcaption} % Insere figuras lado a lado com a mesma legenda
+\usepackage{float} % Usado para determinar a posição de figuras e tabelas
+\usepackage{tikz} % Pacote para gerar figuras
+\usepackage{pgfplots} % Pacote para gerar gráficos
+\pgfplotsset{compat=1.18}
+\usepackage{pgfplotstable} % Pacote para criar tabela de dados no pgfplots
