@@ -3,6 +3,8 @@
 
 Agosto, 2025
 
+---
+
 <p align="center">
   <img src="./latex_logo.png" alt="LaTeX" width="400"/>
 </p>
@@ -24,9 +26,12 @@ $\LaTeX$ é uma linguagem de formatação de textos, especialmente popular para 
 3. Formatação das referencias bibliográficas;
 4. Apresentação do TikZ e do PGFPlots e aplicações na Física;
 
+---
 
 # O Overleaf
 
 <p align="center">
   <img src="./overleaf_logo.png" alt="LaTeX" width="400"/>
 </p>
+
+Neste minicurso, utilizaremos o **Overleaf**, uma plataforma online para edição de documentos em LaTeX que facilita a escrita de textos acadêmicos, relatórios e artigos científicos. Para acompanhar as atividades, é necessário ter uma conta no Overleaf. Caso ainda não possua, você pode criar uma gratuitamente acessando o seguinte link [OVERLEAF.COM](https://www.overleaf.com).
